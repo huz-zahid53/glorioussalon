@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldLuster" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#fff9ee" />
+      <stop offset="25%" stop-color="#f7e0b5" />
+      <stop offset="55%" stop-color="#dfbe7e" />
+      <stop offset="85%" stop-color="#b38a43" />
+      <stop offset="100%" stop-color="#e8cf96" />
+    </linearGradient>
+    <linearGradient id="roseLuster" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf0f2" />
+      <stop offset="35%" stop-color="#f0c2c8" />
+      <stop offset="70%" stop-color="#d98993" />
+      <stop offset="100%" stop-color="#8c3b46" />
+    </linearGradient>
+    <radialGradient id="haloRadiance" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dfbe7e" stop-opacity="0.32" />
+      <stop offset="50%" stop-color="#8c3b46" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0a060a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="100" height="100" rx="24" fill="#0d080f" stroke="rgba(247, 224, 181, 0.22)" stroke-width="1.2" />
+  <circle cx="50" cy="50" r="44" fill="url(#haloRadiance)" />
+  <circle cx="50" cy="50" r="43" fill="none" stroke="url(#goldLuster)" stroke-width="0.8" stroke-opacity="0.4" />
+  <circle cx="50" cy="50" r="39.5" fill="none" stroke="url(#goldLuster)" stroke-width="1" stroke-opacity="0.65" stroke-dasharray="3 4.5" />
+
+  <polygon points="50,6.5 52,9.5 50,12.5 48,9.5" fill="url(#goldLuster)" />
+  <polygon points="50,87.5 52,90.5 50,93.5 48,90.5" fill="url(#goldLuster)" />
+  <polygon points="6.5,50 9.5,52 12.5,50 9.5,48" fill="url(#goldLuster)" />
+  <polygon points="87.5,50 90.5,52 93.5,50 90.5,48" fill="url(#goldLuster)" />
+
+  <g transform="translate(50, 20.5) scale(0.72)">
+    <path d="M-15 4 L-9 -8 L0 -14 L9 -8 L15 4 L0 0 Z" fill="url(#goldLuster)" opacity="0.95" />
+    <circle cx="0" cy="-14" r="2" fill="#ffffff" />
+    <circle cx="-9" cy="-8" r="1.5" fill="url(#goldLuster)" />
+    <circle cx="9" cy="-8" r="1.5" fill="url(#goldLuster)" />
+  </g>
+
+  <path
+    d="M62 38.5 C58 32 48 31 40 34 C31 38 27 47 27 56 C27 66 33 74 43 76 C53 78 61 74 65 67 C67 63 67.5 59 67.5 56.5 L48 56.5 L48 50.5 L73.5 50.5 C74 54 74 63 71 68 C66 77 55 82 42 80 C29 77 20 68 20 54 C20 42 27 30 40 26 C51 23 62 26 67.5 33.5 Z"
+    fill="url(#goldLuster)"
+  />
+
+  <g transform="translate(68, 35)">
+    <path d="M0,-11 Q0,0 11,0 Q0,0 0,11 Q0,0 -11,0 Q0,0 0,-11 Z" fill="url(#goldLuster)" />
+    <circle cx="0" cy="0" r="1.8" fill="#ffffff" />
+  </g>
+
+  <g transform="translate(50, 78) scale(0.65)">
+    <path d="M-22 -4 C-16 2 -7 5 0 6 C-6 3 -14 0 -22 -4 Z" fill="url(#roseLuster)" opacity="0.8" />
+    <path d="M22 -4 C16 2 7 5 0 6 C6 3 14 0 22 -4 Z" fill="url(#roseLuster)" opacity="0.8" />
+    <circle cx="0" cy="6" r="1.6" fill="url(#goldLuster)" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Glorious by Iram Beauty Salon",
+  "description": "Luxury beauty salon, bespoke bridal studio, and hair & skin care sanctuary in Islamabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
